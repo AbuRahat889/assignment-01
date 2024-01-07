@@ -1,0 +1,274 @@
+/* common style */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Merriweather', serif;
+    
+}
+
+/* heade style */
+.header-section {
+    background-image: url(./resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    display: flex;
+
+}
+
+.contant {
+    width: 82%;
+    max-width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.backgroung-color {
+    width: 100%;
+    max-width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
+.header-info {
+    position: absolute;
+    padding: 233px 334px 177px 334px;
+    width: 47%;
+    max-width: 632px;
+    color: white;
+    text-align: center;
+
+}
+
+.header-info h1 {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.header-inf p {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+/* main section stlyle */
+
+/* offer-section */
+.offer-section {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.offer-section h1 {
+    font-size: 66px;
+    color: #F00;
+    font-weight: 700;
+    margin-bottom: 33px;
+}
+
+.offer-section p {
+    font-size: 18px;
+    color: #F00;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.offer-section h2 {
+    font-size: 36px;
+    color: #070211;
+    margin-bottom: 35px
+}
+
+
+/* party sectioin */
+
+.party {
+    background-image: url(./resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    height: 432px;
+    align-items: center;
+    justify-self: center;
+    gap: 80px;
+
+    position: relative;
+}
+
+.party-background {
+    position: absolute;
+    height: 432px;
+
+
+}
+
+.party-info {
+    margin-left: 95px;
+    position: relative;
+}
+
+.party-info h1 {
+    font-size: 52px;
+    color: #FFF;
+    font-weight: 900;
+    width: 562px;
+}
+
+.party-info p {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.80);
+    font-weight: 500;
+    width: 565px;
+    margin: 26px 0
+}
+
+.party-info a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: Inter;
+
+}
+
+.party-image img {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    margin-top: 25px;
+}
+/* hotel-contact */
+.hotel-contact{
+    height: 300px;
+}
+.hotel-address{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+    height: 300px;
+}
+.hotel-address .hotel-info{
+    padding: 100px 380px;
+}
+.hotel-address .hotel-info h3{
+    font-family: Inter;
+    font-size: 20px;
+    color: #070211;
+    margin-bottom: 10px;
+}
+.hotel-address .hotel-info button{
+    background-color: #F00;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 27px;
+    font-size: 17px;
+    font-family: Inter;
+    padding: 11px 32px;
+    border: none;
+    border-radius: 6px
+}
+.hotel-address .important{
+    color: #f00;
+}
+
+/* coming-soon */
+.coming-soon{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 120px;
+}
+.coming-soon-Linfo *{
+    margin-bottom: 12px;
+}
+.coming-soon-Linfo .coming-title{
+    font-size: 17px;
+    font-family: 'Inter';
+    color: #F00;
+    font-weight: 500;
+   
+}
+.coming-soon-Linfo h1{
+    font-size: 39px;
+}
+.coming-soon-Linfo p , .coming-soon-Rinfo p , .holidays-info p{
+    font-family: 'Inter';
+    font-size: 15px;
+    color: rgba(7, 2, 17, 0.60);;
+}
+.coming-soon-image{
+    border: 10px solid #F00;
+    border-radius: 50%;
+    padding: 20px;
+    margin-right: 65px;
+}
+.coming-soon-Rinfo{
+    margin-top: 90px;
+}
+.coming-soon-Rinfo *{
+    margin-top: 10px;
+}
+.coming-soon-Rinfo h1{
+    font-size: 48px;
+    color: #F00;
+    font-weight: 800;
+    font-family: 'Inter';
+}
+
+.coming-soon-Rinfo img{
+    height: 140px;
+}
+
+/* holidays-section */
+.holiday{
+
+}
+.holidays-info{
+    text-align: center;
+    margin-top: -150px;
+}
+.holidays-info .holiday-sub-title{
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 500;
+    color: #070211
+}
+.holidays-info .holiday-title{
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 25px 
+}
+.holidays-info .holiday-title .important{
+    color: #f00;
+}
+.holidays-info p{
+    padding: 0px 227px;
+}
+
+.holidays-images{
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+    gap: 165px;
+}
+.holidays-images .holidays-image1{
+    height: 426px;
+    padding: 88px 0 0 0;
+}
+
+.holidays-images .holidays-image2{
+    position: absolute;
+    top: 30px;
+    right: 224px;
+   
+}
+.holidays-images .holidays-image3{
+    height: 367px;
+    padding: 0 0 0 66px;
+}
+
+.holidays-footer img{
+    width: 100%;
+    margin-top: -147px;
+}
