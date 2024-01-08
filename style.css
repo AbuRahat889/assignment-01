@@ -3,7 +3,7 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Merriweather', serif;
-    
+
 }
 
 /* heade style */
@@ -139,25 +139,30 @@
     position: relative;
     margin-top: 25px;
 }
+
 /* hotel-contact */
-.hotel-contact{
+.hotel-contact {
     height: 300px;
 }
-.hotel-address{
+
+.hotel-address {
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     text-align: center;
     height: 300px;
 }
-.hotel-address .hotel-info{
+
+.hotel-address .hotel-info {
     padding: 100px 380px;
 }
-.hotel-address .hotel-info h3{
+
+.hotel-address .hotel-info h3 {
     font-family: Inter;
     font-size: 20px;
     color: #070211;
     margin-bottom: 10px;
 }
-.hotel-address .hotel-info button{
+
+.hotel-address .hotel-info button {
     background-color: #F00;
     color: #fff;
     font-weight: 700;
@@ -168,107 +173,210 @@
     border: none;
     border-radius: 6px
 }
-.hotel-address .important{
+
+.hotel-address .important {
     color: #f00;
 }
 
 /* coming-soon */
-.coming-soon{
+.coming-soon {
     display: flex;
     align-items: center;
     gap: 50px;
     margin-top: 120px;
 }
-.coming-soon-Linfo *{
+
+.coming-soon-Linfo * {
     margin-bottom: 12px;
 }
-.coming-soon-Linfo .coming-title{
+
+.coming-soon-Linfo .coming-title {
     font-size: 17px;
     font-family: 'Inter';
     color: #F00;
     font-weight: 500;
-   
+
 }
-.coming-soon-Linfo h1{
+
+.coming-soon-Linfo h1 {
     font-size: 39px;
 }
-.coming-soon-Linfo p , .coming-soon-Rinfo p , .holidays-info p{
+
+.coming-soon-Linfo p,
+.coming-soon-Rinfo p,
+.holidays-info p,
+.paragraph {
     font-family: 'Inter';
     font-size: 15px;
-    color: rgba(7, 2, 17, 0.60);;
+    color: rgba(7, 2, 17, 0.60);
+    ;
 }
-.coming-soon-image{
+
+.coming-soon-image {
     border: 10px solid #F00;
     border-radius: 50%;
     padding: 20px;
     margin-right: 65px;
 }
-.coming-soon-Rinfo{
+
+.coming-soon-Rinfo {
     margin-top: 90px;
 }
-.coming-soon-Rinfo *{
+
+.coming-soon-Rinfo * {
     margin-top: 10px;
 }
-.coming-soon-Rinfo h1{
+
+.coming-soon-Rinfo h1 {
     font-size: 48px;
     color: #F00;
     font-weight: 800;
     font-family: 'Inter';
 }
 
-.coming-soon-Rinfo img{
+.coming-soon-Rinfo img {
     height: 140px;
 }
 
 /* holidays-section */
-.holiday{
+.holiday {}
 
-}
-.holidays-info{
+.holidays-info {
     text-align: center;
     margin-top: -150px;
 }
-.holidays-info .holiday-sub-title{
+
+.holidays-info .holiday-sub-title {
     font-family: 'Inter';
     font-size: 18px;
     font-weight: 500;
     color: #070211
 }
-.holidays-info .holiday-title{
+
+.holidays-info .holiday-title {
     font-size: 60px;
     font-weight: 900;
-    margin-bottom: 25px 
+    margin-bottom: 25px
 }
-.holidays-info .holiday-title .important{
+
+.holidays-info .holiday-title .important {
     color: #f00;
 }
-.holidays-info p{
+
+.holidays-info p {
     padding: 0px 227px;
 }
 
-.holidays-images{
+.holidays-images {
     position: relative;
     display: flex;
     margin-top: 50px;
     gap: 165px;
 }
-.holidays-images .holidays-image1{
+
+.holidays-images .holidays-image1 {
     height: 426px;
     padding: 88px 0 0 0;
 }
 
-.holidays-images .holidays-image2{
+.holidays-images .holidays-image2 {
     position: absolute;
     top: 30px;
     right: 224px;
-   
-}
-.holidays-images .holidays-image3{
-    height: 367px;
-    padding: 0 0 0 66px;
+
 }
 
-.holidays-footer img{
+.holidays-images .holidays-image3 {
+    height: 367px;
+    padding: 0 0 0 66px;
+    width: 100%;
+}
+
+.holidays-footer img {
     width: 100%;
     margin-top: -147px;
+}
+
+/* newslatter-section */
+.newslatter-section {
+    background: rgba(255, 0, 0, 0.05);
+    height: 400px;
+    margin-top: 256px;
+    padding: 50px 0;
+}
+
+.newslatter {
+    text-align: center;
+    padding: 0 205px;
+}
+
+.newslatter * {
+    margin: 13px 0;
+}
+
+.newslatter h1 {
+    font-size: 48px;
+    color: #070211;
+    font-weight: 900;
+}
+
+.newslatter form {
+    max-width: 504px;
+    display: flex;
+    margin: 0 0 0 111px;
+    height: 72px;
+}
+
+.newslatter form input {
+    flex-grow: 1;
+    border: none;
+    padding: 0px 22px;
+    border-radius: 50px 0px 0px 50px;
+
+}
+
+.newslatter .button {
+    background-color: #F00;
+    color: #FFF;
+    font-weight: 700;
+    border: none;
+    border-radius: 0 50px 50px 0px;
+}
+
+/* footer-section */
+.footer-section {
+    color: white;
+    height: 500px;
+    background-color: #000;
+    margin-top: 70px;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+    padding: 77px 150px 0 150px;
+
+}
+
+.footer-text .footer-address {
+    width: 300px;
+    height: auto;
+    line-height: 34px
+}
+
+.footer-contact * {
+    display: flex;
+    margin: 0 10px 10px 0;
+}
+
+.divided {
+    width: 1160px;
+    margin: 0 auto;
+}
+.socail-icon{
+    text-align: center;
+    margin: 40px 0px;
+}
+.socail-icon img{
+    padding: 10px;
 }
