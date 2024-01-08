@@ -303,8 +303,7 @@
 
 /* portfolio */
 .portfolio{
-    margin-top: 255px;
-    height: 7335px;
+    margin-top: 255px; 
 }
 .portfolio .portfolio-info .portfolio-sub-title{
     color: #f00;
@@ -325,9 +324,8 @@
     max-width: 1320px;
 }
 .portfolio .portfolio-image img{
-    width: 355px;
+    width: 366px;
     height: 311px;
-    margin: 0 5px 0 5px;
 }
 
 .portfolio-info .paragraph{
